@@ -2,7 +2,9 @@ function main() {
     console.log(`Hello, write in the console "traingle()" if you want to see a triangle. Write "fizzBuzz()" if you want to see fizz and Buzz every 3 and 5 spots respectively.`)
     console.log(`If you want to show the chess board. Type in the cmd line "chessBoard()" with whatever number of cols and rows you want in the ().`);
     console.log(`Sad part is, it only shows the first row and places the number of rows on the left in a circle...`)
+    testing();
 }
+
 
 main();
 
@@ -48,5 +50,9 @@ function chessBoard(numPerLine) {
         fullChessBoard += "\n";
     }
     console.log(fullChessBoard);
+}
+
+function testing() {
+    console.log('This is a test');
 }
 
